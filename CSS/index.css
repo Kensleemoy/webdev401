@@ -1,0 +1,54 @@
+h1, p, .submitButton, .form {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    padding: 30px;
+    margin: 50px;
+}
+
+.main {
+    padding-top: 30px;
+}
+
+.main, .form {
+    width: 100%;
+    position: relative;
+    padding: 15px;
+
+}
+
+.buttonContainer, .submitButton {
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+.enterButton, .submitButton {
+    border-radius: 5px;
+    background-color: #ff5324;
+    width: 10%;
+    height: 12%;
+    border: none;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.enterButton:hover, .submitButton:hover {
+    background-color: #ba320d;
+}
+
+.header-block {
+    right: 0;
+    top: 0;
+    left: 0;
+    height: 15%;
+    color: white;
+    background-color: #00d9c7;
+}
